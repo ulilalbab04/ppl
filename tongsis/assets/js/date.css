@@ -1,0 +1,172 @@
+/* ---- calendar and input styles ---- */
+
+input.DatePicker{
+	display: block;
+	width: 180px;
+	padding: 3px 3px 3px 24px;
+	border: 1px solid #0070bf;
+	font-size: 13px;
+	background: #fff url(images/date.gif) no-repeat top left;
+	cursor: pointer;
+}
+input:focus.DatePicker{
+	background: #fffce9 url(images/datefocus.gif) no-repeat top left;
+}
+.dp_container{
+	position: absolute;
+	padding: 0;
+	z-index: 500;
+}
+.dp_cal{
+	background-color: #fff;
+	border: 1px solid #0070bf;
+	position: absolute;
+	width: 177px;
+	top: 24px;
+	left: 0px;
+	margin: 0px 0px 3px 0px;
+}
+.dp_cal table{
+	width: 100%;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.dp_cal select{
+	margin: 2px 3px;
+	font-size: 11px;
+}
+.dp_cal select option{
+	padding: 1px 3px;
+}
+.dp_cal th,
+.dp_cal td{
+	width: 14.2857%;
+	text-align: center;
+	font-size: 11px;
+	padding: 2px 0;
+}
+.dp_cal th{
+	border: solid #aad4f2;
+	border-width: 1px 0;
+	color: #797774;
+	background: #daf2e6;
+	font-weight: bold;
+}
+.dp_cal td{
+	cursor: pointer;
+}
+.dp_cal thead th{
+	background: #d9eefc;
+}
+.dp_cal td.dp_roll{
+	color: #000;
+	background: #fff6bf;
+}
+/* must have this for the IE6 select box hiding */
+.dp_hide{
+	visibility: hidden;
+}
+.dp_empty{
+	background: #eee;
+}
+.dp_today{
+	background: #daf2e6;
+}
+.dp_selected{
+	color: #fff;
+	background: #328dcf;
+}
+
+
+
+/* ---- just to pretty up this page ---- */
+
+body{
+	font-family: Tahoma, Geneva, sans-serif;
+}
+.yep{
+	width: 450px;
+	margin: 50px auto;
+	text-align: center;
+}
+h1{
+	margin: 20px 0;
+	color: #60bf8f;
+	font: normal 28px Georgia, serif;
+}
+h2{
+	margin: 20px 0;
+	color: #60bf8f;
+	font: normal 22px Georgia, serif;
+}
+p{
+	float: left;
+	display: inline;
+	width: 180px;
+	margin: 20px;
+	text-align: left;
+}
+label{
+	color: #797774;
+	display: block;
+	font-size: 12px;
+	font-weight: bold;
+	margin: 8px 0 3px 0;
+}
+dl,dt,dd,ul,li{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+ul{
+	clear: both;
+}
+li{
+	font-size: 10px;
+}
+li a{
+	color: #004a7f;
+	text-decoration: none;
+}
+li a:hover{
+	color: #328dcf;
+	border-bottom: 1px solid #328dcf;
+}
+dl{
+	font-size: 12px;
+	text-align: left;
+}
+dt, dd.default{
+	font-family: monaco, "Bitstream Vera Sans Mono", "Courier New", courier, monospace;
+	font-weight: bold;
+}
+dt{
+	clear: left;
+	float: left;
+	width: 140px;
+	padding: 5px;
+	text-align: right;
+}
+dd{
+	margin: 5px 0 30px 160px;
+	padding: 5px;
+}
+.default{
+	margin: 0 0 0 160px;
+	background: #eee;
+}
+p.note{
+	background: #ffd;
+	border: 1px solid #dd6;
+	display: block;
+	float: none;
+	font-size: 12px;
+	line-height: 1.8;
+	padding: 10px;
+	width: auto;
+}
+code{
+	background: #eee;
+	border: 1px solid #ccc;
+	padding: 0 5px;
+}

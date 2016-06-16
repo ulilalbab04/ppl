@@ -1,0 +1,1 @@
+<script>alert('Anda telah berhasil keluar.'); window.location.href = 'index.php'</script>

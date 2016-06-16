@@ -1,0 +1,155 @@
+/* Template */
+/*******************************/
+html,body{
+	height:100%;
+}
+/* Header */
+#tampilan{
+	background-color: #34465D; 
+	min-height:100%;
+	position:relative;
+}
+.page-header{
+	margin : 0px;
+}
+#logo{
+	height: 100px;
+}
+/* Menu */
+#menu_home{
+	background-color: #34465D; 
+	margin:0px; 
+	border:0px;
+}
+/* Paging */
+.pagination{
+	font-size:20px;
+}
+/*Footer */
+canvas {
+  width: 100%;
+}
+#footer{
+	color:white;
+}
+
+/*******************************/
+/* Home */
+#content_home{
+	background-color: white;
+}
+#greeting{
+	padding-top:30px; 
+	margin-bottom:5%;
+}
+#batas{
+	width:0px; 
+	height:525px; 
+	margin-left:45px; 
+	margin-top:4px; 
+	border:6px solid #d3d3d3;
+}
+#daftarevent{
+	margin-top:3%; 
+	padding-bottom: 65%;
+}
+#batas1{
+	width:475px auto; 
+	height:0px; 
+	margin-top:4px; 
+	border:2px solid #d3d3d3;
+}
+#login_home{
+	padding-top: 20px; 
+	padding-bottom: 10px;
+}
+
+/*******************************/
+/* Collection */
+#content_collection_photo{
+	background-color: white; 
+	min-height: 515px;
+}
+#content_collection_member{
+	background-color: white; 
+	min-height: 530px;
+}
+#content_collection_admin{
+	background-color: white; 
+	min-height: 530px;
+}
+#content_collection_super_admin{
+	background-color: white; 
+	min-height: 530px;
+}
+#image-upload{
+	width: 300px;
+	height: 350px;
+	border: 1px solid #ccc;
+	padding: 2px;
+	margin-left:95px;
+	margin-right:15px;
+	margin-bottom:10px;
+}
+/*******************************/
+/* Event */
+#content_event{
+	background-color: white; 
+	min-height: 534px;
+}
+/*******************************/
+/* Event Home */
+
+/*******************************/
+/* About */
+#content_about{
+	background-color: white;
+	min-height: 534px;
+}
+/*******************************/
+/* Sign Up */
+#content_sign_up{
+	background-color: white; 
+	min-height: 534px;
+}
+#image-preview {
+	width: 200px;
+	height: 250px;
+	border: 1px solid #ccc;
+	padding: 2px;
+	margin-left:95px;
+	margin-right:15px;
+	margin-bottom:80px;
+}
+#upload input{
+  opacity:0;
+  filter:alpha(opacity=0);
+  display:block;
+  position:absolute;
+  top:0;
+  right:0;
+  margin:0;
+  padding:0;
+  font-size:2000%;
+  z-index:4;
+  cursor:pointer;
+}
+#upload span {
+  left:auto;
+  background-color:#234;
+  border-radius:0 3px 3px 0;
+  padding:0 15px;
+  box-shadow:0 0 3px black,0 0 10px black;
+}
+
+/* Profile */
+#image-profile {
+	width: 250px;
+	height: 250px;
+	border: 1px solid #ccc;
+	padding: 2px;
+	margin-left:15px;
+	margin-right:15px;
+	margin-bottom:10px;
+}
+/*******************************/
